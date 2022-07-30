@@ -1,0 +1,39 @@
+h1 {
+  color: rgb(13, 119, 9);
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+form {
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.main1 {
+  display: inline-block;
+  border-radius: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: #f44336;
+
+}
+  a:link, a:visited {
+    background-color: #f44336;
+    border-radius: 75%;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
