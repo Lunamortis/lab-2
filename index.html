@@ -15,18 +15,29 @@
   <article>
     <h1> My html learning journey</h1>
     <h2> "Learning elements - div, span, p, pre, ul, li, ol, article".</h2>
-  <p>p represents paragraph</p>
-  <pre>Text in         a pre element
+    <p>p represents paragraph</p>
+    <pre>Text in         a pre element
     is displayed in a fixed-width
     font, and it preserves
     both      spaces and
     line breaks
     </pre>
   </article>
-  <div class="image1"> <img src="https://picsum.photos/200/300" alt="" />
-  </div>
-  <div class="video1"><video width="320" height="240" autoplay>
-      <source src="stock videos.mp4">
+  <div class="media1">
+    <div class="image1"> <img src="https://picsum.photos/200/300" alt="" />
+    </div>
+
+    <div class="video1"><video width="320" height="240" controls>
+        <source src="stock_videos.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+
+    <div class="Audio1"><audio controls autoplay muted>
+        <source src="Little_Numbers.mp3" type="audio/mpeg">
+      </audio>
+    </div>
   </div>
   <div class="list1">
     <ul style="list-style-type:square;">
@@ -36,26 +47,28 @@
       <li>bannana</li>
     </ul>
   </div>
+
   <div class="list2">
     <ol>
-    <li> Coffee</li>
-    <li> Tea</li>
-    <ol style="list-style-type:square;">
-      <li>Black Tea</li>
-      <li>Black Coffee</li>
-      <li>New Coke</li>
+      <li> Coffee</li>
+      <li> Tea</li>
+      <ol style="list-style-type:square;">
+        <li>Black Tea</li>
+        <li>Black Coffee</li>
+        <li>New Coke</li>
+      </ol>
+      <li> Milk</li>
+      <li>Water</li>
     </ol>
-    <li> Milk</li>
-    <li>Water</li>
-  </ol>
-</div>
+  </div>
+
   <header>
     <h1> Lab 2 Main page</h1>
     <nav>
-      <!-- works like <a href="/index.html">Home</a> -->
+
       <a href="table.html">table</a>
       <a href="form.html">Form</a>
-
+      <a href="flexbox.html">Flexbox</a>
     </nav>
 
   </header>

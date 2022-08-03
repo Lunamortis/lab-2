@@ -1,6 +1,82 @@
 .flex-container{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.flex-item-1{
+  background-color: blue;
+  flex: 10;
+  margin: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 25px;
+  
+
+}
+.flex-item-2{
+  background-color: green;
+  margin: 20px;
+  flex: 20;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 25px;
+
+}
+
+.flex-item-3{
+  background-color: aqua;
+  margin: 20px;
+  flex: 30;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 25px;
+
+}
+
+.flex-item-4{
+  background-color: mediumslateblue;
+  margin: 20px;
+  flex: 40;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 25px;
+
+}
+
+.background-1{
+  display:flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  align-items: center;
+  
+}
+
+.background-4{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blueviolet;
+  height: 100px;
+  width: 800px;
+}
+
+.background-1a{
+  background-color: greenyellow;
+  height: 80px;
+  width: 80px;
+}
+
+.background-2{
+  background-color: blue;
+  height: 80px;
+  width: 80px;
 }
 
 .center{
@@ -16,4 +92,35 @@
 .wrap{
     display: flex;
   flex-wrap: wrap;
+  font-size: larger;
+}
+
+.basic{
+font-size: large;
+color: red
+text-deoration: underline
+}
+
+.background-1b{
+  background-color: aqua;
+  height: 80px;
+  width: 800px;
+}
+
+.background-2a{
+  background-color: coral;
+  height: 80px;
+  width: 800px;
+}
+
+.background-3{
+  background-color:pink;
+  height: 80px;
+  width: 800px;
+}
+
+.background-4a{
+  background-color:yellow;
+  height: 80px;
+  width: 800px;
 }
